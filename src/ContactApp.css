@@ -1,0 +1,146 @@
+.contact-app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #323334;
+    /* width: 393px; */
+
+    h2{
+        color: white;
+        text-align: center;
+        margin:0px;
+        padding: 0px;
+    }
+    img {
+        border-radius: 50%;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .plus {
+        color: #323334;
+        background-color: white;
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+    }
+    
+    h4 {
+        text-align: start;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #323334;
+        line-height: 19px;
+    }
+
+    p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.top-elements {
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    input {
+        border: 1px solid white;
+        background-color: #323334;
+        border-radius: 10px;
+        height: 30px;
+        width: 295px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+.contact-details{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFEAAE;
+    text-align: center;
+    height: 64px;
+    gap:8px;
+    border-radius: 10px;
+    height: 48px;
+    width: 360px;
+    margin-bottom: 11px;
+}
+
+.icon {
+    display: flex;
+    gap:6px;
+    justify-content: center;
+    .contact-icon{
+        margin-top: 3px;
+        font-size: 2.3rem;
+    }
+}
+
+.edit-delete {
+    display: flex;
+    margin-left: 20px;
+    gap:8px;
+    
+    .edit {
+        box-shadow: #323334;
+        cursor:pointer;
+    }
+    .delete {
+        cursor: pointer;
+    }
+}
+
+.add {
+    cursor:pointer;
+    background-color: #FFEAAE;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    justify-self: end;
+    border: none;
+}
+
+.add-contact-page {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    input {
+        border: 1px solid white;
+        background-color: #323334;
+        border-radius: 10px;
+        height: 30px;
+        width: 200px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+.input-element {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-heading {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
